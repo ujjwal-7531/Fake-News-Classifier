@@ -30,14 +30,11 @@ This project is a **Fake News Detection** system built using Natural Language Pr
    - Stopword Removal
    - Lemmatization
 
-2. **Vectorization**:
-   - `CountVectorizer` or `TfidfVectorizer`
-
-3. **Modeling**:
+2. **Modeling**:
    - Logistic Regression using `scikit-learn`
 
-4. **Evaluation**:
-   - Accuracy, Precision, Recall, F1 Score
+3. **Evaluation**:
+   - Accuracy
 
 ---
 
@@ -45,12 +42,3 @@ This project is a **Fake News Detection** system built using Natural Language Pr
 
 - ✅ **Test Accuracy**: ~92–93%
 - 📉 The model is evaluated using proper train-test split and cross-validation.
-
----
-
-## 💻 How to Run
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/fake-news-classifier.git
-   cd fake-news-classifier
